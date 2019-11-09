@@ -1,4 +1,4 @@
-/*
+/**
  "Queen's Attack II" problem on HackerRank: www.hackerrank.com/challenges/queens-attack-2/
 
     The algorithm:
