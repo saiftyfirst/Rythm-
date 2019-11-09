@@ -1,3 +1,27 @@
+/*
+ "Queen's Attack II" problem on HackerRank: www.hackerrank.com/challenges/queens-attack-2/
+
+    The algorithm:
+
+    1. I sum all the possible moves for the queen from it's position given its position.
+        - (r_q -1) -> Possible moves to the left of board
+        - (n - r_q) -> Possible moves to the right of board
+        - (c_q -1) -> Possible moves towards the bottom
+        - (n - c_q) -> Possible moves towards the top
+        - min((r_q - 1), (c_q - 1)) -> Possible moves towards bottom-left
+        - min((n - r_q), (c_q - 1)) -> Possible moves towards top-left
+        - min((n - r_q), (n - c_q)) -> Possible moves towards top-right
+        - min((r_q - 1), (n - c_q)) -> Possible moves towards bottom-right
+
+    2. Next, I loop through the positions of the obstacles and store the deductions on the possible moves due to an obstacle.
+       Since it is possible that there are more than one obstacle along the same line, I only store maximum deductions.
+       I have commented on the code so hope it is reasonably clear.
+
+    3. Finally, I deduct the deductions from the total possible moves.
+
+ * */
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
