@@ -3,4 +3,4 @@ project(Rythm__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Rythm__ main.cpp)
+add_executable(Rythm__ main.cpp HackerRank/SuperComputerDeEmma.cpp)
