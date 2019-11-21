@@ -121,8 +121,8 @@ int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
 
-    std::ifstream in("/home/saiftyfirst/CLionProjects/EmaSuper/in.txt");
-    std::cin.rdbuf(in.rdbuf());
+//    std::ifstream in("in.txt");
+//    std::cin.rdbuf(in.rdbuf());
 
     string nm_temp;
 

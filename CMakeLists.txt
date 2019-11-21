@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.15)
-project(Rythm__)
+project(Rythm)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Rythm__ main.cpp HackerRank/SuperComputerDeEmma.cpp)
+add_executable(EmaSuper HackerRank/SuperComputerDeEmma.cpp)
+add_executable(NonDivisibleSubset HackerRank/NonDivisibleSubset.cpp)
+add_executable(Bomberman HackerRank/Bomberman.cpp)
+add_executable(QueensAttack HackerRank/QueensAttack2.cpp)
+add_executable(ClimbingLeaderboard HackerRank/ClimbingLeaderBoard.cpp)
