@@ -43,9 +43,6 @@ int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
 
-    std::ifstream in("/home/saiftyfirst/CLionProjects/Rythm++/HackerRank/input.txt");
-    std::cin.rdbuf(in.rdbuf());
-
     int scores_count;
     cin >> scores_count;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');

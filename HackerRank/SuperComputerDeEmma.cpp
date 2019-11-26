@@ -126,8 +126,6 @@ int main()
 
     string nm_temp;
 
-
-
     getline(cin, nm_temp);
 
     vector<string> nm = split_string(nm_temp);
