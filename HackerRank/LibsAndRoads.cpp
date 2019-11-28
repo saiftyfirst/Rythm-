@@ -1,3 +1,8 @@
+/**
+ * Problem: https://www.hackerrank.com/challenges/torque-and-development/problem
+ *
+ * */
+
 #include <bits/stdc++.h>
 
 using namespace std;
